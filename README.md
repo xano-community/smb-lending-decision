@@ -61,7 +61,7 @@ xano workspace push backend -w <your-workspace-id>
 ## Usage
 
 ```xs
-// Seed the loan book once (existing obligations for a business):
+// Run end-to-end evaluation (folds in any loan-book obligations automatically):
 function.run "sld_evaluate" {
   input = {
     applicant_name: "Acme LLC",
